@@ -1,16 +1,26 @@
-import firebase from 'firebase/app';
-import 'firebase/firestore';
-import 'firebase/auth';
+// v9 compat packages are API compatible with v8 code
+import firebase from 'firebase/compat/app';
+import 'firebase/compat/auth';
+import 'firebase/compat/firestore';
 
 const config = {
-  apiKey: 'AIzaSyCdHT-AYHXjF7wOrfAchX4PIm3cSj5tn14',
-  authDomain: 'crwn-db.firebaseapp.com',
+  apiKey: "AIzaSyCY2FW0bubIfXaqOBMOemkMLKwMOUwHFhw",
+authDomain: "crowndb-f02d5.firebaseapp.com",
   databaseURL: 'https://crwn-db.firebaseio.com',
-  projectId: 'crwn-db',
-  storageBucket: 'crwn-db.appspot.com',
-  messagingSenderId: '850995411664',
-  appId: '1:850995411664:web:7ddc01d597846f65'
+  projectId: "crowndb-f02d5",
+  storageBucket: "crowndb-f02d5.appspot.com",
+  messagingSenderId: "210217648751",
+  appId: "1:210217648751:web:1a421be72160378f78439a",
 };
+
+// apiKey: "AIzaSyCY2FW0bubIfXaqOBMOemkMLKwMOUwHFhw",
+// authDomain: "crowndb-f02d5.firebaseapp.com",
+// projectId: "crowndb-f02d5",
+// storageBucket: "crowndb-f02d5.appspot.com",
+// messagingSenderId: "210217648751",
+// appId: "1:210217648751:web:1a421be72160378f78439a",
+// measurementId: "G-RSN3WJ9MQ1"
+
 
 firebase.initializeApp(config);
 
